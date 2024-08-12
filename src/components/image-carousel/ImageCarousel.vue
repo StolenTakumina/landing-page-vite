@@ -36,25 +36,10 @@ export default {
       images: [],
       currentIndex: 0,
       title: '$1.99',
-      subtitle: 'Original value $500',
-      mainImageRatio: 400 / 132, // 3.03:1 ratio
-      thumbnailRatio: 400 / 132 // Same ratio for thumbnails
+      subtitle: 'Original value $500'
     }
   },
   computed: {
-    mainImageWidth() {
-      return this.$el ? this.$el.clientWidth : 671
-    },
-    mainImageHeight() {
-      return this.mainImageWidth / this.mainImageRatio
-    },
-    thumbnailWidth() {
-      // Set a thumbnail width relative to main image width
-      return Math.min(this.mainImageWidth / 4, 150) // Or another logic
-    },
-    thumbnailHeight() {
-      return this.thumbnailWidth / this.thumbnailRatio
-    },
     currentThumbnails() {
       return this.images.filter((image) => image.id !== this.currentIndex)
     }

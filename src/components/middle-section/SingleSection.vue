@@ -61,6 +61,8 @@ export default {
   display: flex;
   flex-direction: row;
   color: $green-3;
+  align-items: center;
+  justify-content: space-between;
   &__image {
     display: flex;
     justify-content: center;

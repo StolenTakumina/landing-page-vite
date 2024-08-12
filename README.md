@@ -1,6 +1,7 @@
-# landing-page
+# Recruitment Task
 
-This template should help get you started developing with Vue 3 in Vite.
+Landing page of StockX shop.
+Developed with Vue 3 in Vite, scss and vuex store.
 
 ## Recommended IDE Setup
 

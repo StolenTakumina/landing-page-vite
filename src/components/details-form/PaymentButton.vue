@@ -1,6 +1,13 @@
 <template>
   <div class="button">
-    <div class="button__container" @click="setPayment">
+    <div
+      class="button__container"
+      @click="setPayment"
+      @keydown.enter="setPayment"
+      tabindex="0"
+      aria-label="Proceed to payment"
+      role="button"
+    >
       <div class="button__label">
         {{ label }}
       </div>
@@ -33,7 +40,7 @@ export default {
 
   &__container {
     width: 100%;
-    color: white;
+    color: $white;
     display: flex;
     justify-content: center;
     align-items: center;
