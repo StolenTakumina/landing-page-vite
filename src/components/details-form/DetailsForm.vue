@@ -61,7 +61,6 @@ export default {
   },
   methods: {
     onInput(field, value) {
-      console.log('invoked')
       if (typeof value == 'string') {
         this.$store.dispatch(field, value)
       }

@@ -1,8 +1,4 @@
 <script>
-import PaymentButton from './components/details-form/PaymentButton.vue'
-import InputField from './components/details-form/InputField.vue'
-import DetailsForm from './components/details-form/DetailsForm.vue'
-import ImageCarousel from './components/image-carousel/ImageCarousel.vue'
 import TopSection from './components/top-section/TopSection.vue'
 import MiddleSection from './components/middle-section/MiddleSection.vue'
 import BottomSection from './components/bottom-section/BottomSection.vue'
@@ -10,10 +6,6 @@ import FooterSection from './components/footer-section/FooterSection.vue'
 
 export default {
   components: {
-    InputField,
-    PaymentButton,
-    DetailsForm,
-    ImageCarousel,
     TopSection,
     MiddleSection,
     BottomSection,
@@ -25,10 +17,6 @@ export default {
 <template>
   <div class="app">
     <div class="main__content">
-      <input-field v-if="false" placeholder="First name" />
-      <payment-button v-if="false" />
-      <details-form v-if="false" />
-      <image-carousel v-if="false" />
       <top-section />
       <middle-section />
     </div>

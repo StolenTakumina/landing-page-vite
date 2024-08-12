@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .carousel {
   display: flex;
   flex-direction: column;

@@ -19,31 +19,24 @@ const getters = {
 const actions = {
   setFirstName({ commit }, firstName) {
     commit('SET_FIRST_NAME', firstName)
-    console.log('set', firstName)
   },
   setLastName({ commit }, lastName) {
     commit('SET_LAST_NAME', lastName)
-    console.log('set', lastName)
   },
   setStreet({ commit }, street) {
     commit('SET_STREET', street)
-    console.log('set', street)
   },
   setPostalCode({ commit }, postalCode) {
     commit('SET_POSTAL_CODE', postalCode)
-    console.log('set', postalCode)
   },
   setCity({ commit }, city) {
     commit('SET_CITY', city)
-    console.log('set', city)
   },
   setPhoneNumber({ commit }, phoneNumber) {
     commit('SET_PHONE_NUMBER', phoneNumber)
-    console.log('set', phoneNumber)
   },
   setEmail({ commit }, email) {
     commit('SET_EMAIL', email)
-    console.log('set', email)
   }
 }
 
